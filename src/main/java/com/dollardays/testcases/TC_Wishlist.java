@@ -701,7 +701,7 @@ public class TC_Wishlist extends BaseTest {
 		Thread.sleep(2000);
 		wl.updateLog(bDontitle2,"TS 56: BY clicking on Donate Now navigated to targeted page","TS56_Navigation");
 
-<<<<<<< HEAD
+
 		//		//Validating by adding product and leading to checkout
 		//		wl.setAddCount();
 		//		Thread.sleep(3000);
@@ -746,7 +746,7 @@ public class TC_Wishlist extends BaseTest {
 		//			wl.updateLog(true,"TS 60: By Clicking Checkout/View Cart - Navigates to same Page","TS60_BCheckout");
 		//		}
 		//		wl.clickReturntoCart();
-=======
+
 		//Validating by adding product and leading to checkout
 		wl.setAddCount();
 		Thread.sleep(3000);
@@ -791,7 +791,7 @@ public class TC_Wishlist extends BaseTest {
 			wl.updateLog(true,"TS 60: By Clicking Checkout/View Cart - Navigates to same Page","TS60_BCheckout");
 		}
 		wl.clickReturntoCart();
->>>>>>> 1601a64de6d7e3ab7f596c79fbb70cc2bd0a0a1f
+
 		Thread.sleep(2000);
 		wl.clickWishlist();
 		wl.clickLearnMore();
