@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [DollarDaysWishlist]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.dollardays.listners.TestListener"/>
+  </listeners>
+  <test thread-count="5" name="WLTest(failed)">
+    <classes>
+      <class name="com.dollardays.testcases.TC_Wishlist">
+        <methods>
+          <include name="wishlistTest_1" invocation-numbers="0"/>
+          <include name="wishlistTest_4"/>
+          <include name="wishlistTest_2" invocation-numbers="0 1 2 3"/>
+          <include name="afterClass"/>
+          <include name="wishlistTest_3" invocation-numbers="0"/>
+          <include name="beforeClass"/>
+          <include name="wishlistTest_5"/>
+          <include name="quit"/>
+          <include name="setUpBrowser"/>
+        </methods>
+      </class> <!-- com.dollardays.testcases.TC_Wishlist -->
+    </classes>
+  </test> <!-- WLTest(failed) -->
+</suite> <!-- Failed suite [DollarDaysWishlist] -->

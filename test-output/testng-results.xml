@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-01-26T03:26:46 CST" name="DollarDaysHomePageTotalLinks" finished-at="2021-01-26T03:27:25 CST" duration-ms="39242">
+    <groups>
+    </groups>
+    <test started-at="2021-01-26T03:26:46 CST" name="DD_LinksTest" finished-at="2021-01-26T03:27:25 CST" duration-ms="39242">
+      <class name="com.dollardays.testcases.TC_DDTotalLinks">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.dollardays.testcases.TC_DDTotalLinks@19e4653c]" started-at="2021-01-26T03:26:46 CST" name="beforeClass" finished-at="2021-01-26T03:26:46 CST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="setUpBrowser()[pri:0, instance:com.dollardays.testcases.TC_DDTotalLinks@19e4653c]" started-at="2021-01-26T03:26:46 CST" name="setUpBrowser" finished-at="2021-01-26T03:26:53 CST" duration-ms="6456" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBrowser -->
+        <test-method signature="totalLinks()[pri:0, instance:com.dollardays.testcases.TC_DDTotalLinks@19e4653c]" started-at="2021-01-26T03:26:53 CST" name="totalLinks" finished-at="2021-01-26T03:27:20 CST" duration-ms="27502" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- totalLinks -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:com.dollardays.testcases.TC_DDTotalLinks@19e4653c]" started-at="2021-01-26T03:27:20 CST" name="quit" finished-at="2021-01-26T03:27:25 CST" duration-ms="5243" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.dollardays.testcases.TC_DDTotalLinks@19e4653c]" started-at="2021-01-26T03:27:25 CST" name="afterClass" finished-at="2021-01-26T03:27:25 CST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.dollardays.testcases.TC_DDTotalLinks -->
+    </test> <!-- DD_LinksTest -->
+  </suite> <!-- DollarDaysHomePageTotalLinks -->
+</testng-results>
